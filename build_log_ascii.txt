@@ -1,0 +1,27 @@
+
+> subscription-management-app@1.0.0 build
+> vite build
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+(node:41176) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[Failed to load PostCSS config: Failed to load PostCSS config (searchPath: C:/Users/Bindu/Downloads/Telegram Desktop/subzz): [SyntaxError] Unexpected token 'export'
+C:\Users\Bindu\Downloads\Telegram Desktop\subzz\postcss.config.js:1
+export default {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at cjsLoader (node:internal/modules/esm/translators:346:17)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:286:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+    at async importDefault (file:///C:/Users/Bindu/Downloads/Telegram%20Desktop/subzz/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:33759:18)]
+
+Node.js v20.17.0
