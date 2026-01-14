@@ -13,46 +13,7 @@ A modern, mobile-first subscription management web application built with React.
 - ⚙️ **Settings**: Theme customization (Light/Dark/System) and font size scaling
 - 📱 **Mobile-First**: Responsive design optimized for mobile devices
 
-## Tech Stack
 
-- **React.js** 18.2.0
-- **React Router** 6.20.0
-- **Tailwind CSS** 3.3.6
-- **React Icons** 4.12.0
-- **Vite** 5.0.8
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-
-3. Open your browser and navigate to `http://localhost:3000`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
 
 ## Project Structure
 
@@ -159,4 +120,5 @@ The following data is persisted in localStorage:
 ## License
 
 This project is created for demonstration purposes.
+
 
